@@ -1,0 +1,89 @@
+body {
+    font-family: "Oswald";
+    min-width: 1500px;
+    color: #2f2f2f;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #2f2f2f;
+    padding-bottom: 12px;
+    margin: 0px 30px;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    padding: 15px 15px 15px 50px;
+}
+
+header .navigation-bar {
+    padding-top: 70px;
+    padding-right: 80px;
+}
+
+header .navigation-bar a {
+    text-decoration: none;
+    color: #a4a4a4;
+    padding-right: 20px;
+}
+
+header .navigation-bar a:hover {
+    color: #2f2f2f;
+}
+
+header .navigation-bar .active {
+    color: #2f2f2f;
+}
+
+
+
+
+.main-content {
+    margin: 0px 30px;
+}
+
+.main-content .text {
+    padding: 50px 100px 0px 100px;
+}
+
+.main-content h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 60px;
+}
+
+.main-content p {
+    font-size: 23px;
+}
+
+.main-content ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.main-content li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.main-content a {
+    font-size: 28px;
+    text-decoration: none;
+    color: #2f2f2f;
+}
+
+.main-content img {
+    width: 130px;
+    height: 130px;
+    padding: 20px;
+}
